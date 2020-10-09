@@ -1,0 +1,70 @@
+body {
+    background: url("images/background.jpg") center no-repeat fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid purple;
+    border-radius: 25px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 400px;
+    margin: 25px 0;
+}
+
+.login {
+    background-color: purple;
+    padding: 30px 0;
+    color: white;
+}
+
+hr {
+    width: 300px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+a.forgot {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: white;
+}
+
+a.forgot:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.icon {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+#feedback {
+    color: yellow;
+    font-variant: small-caps;
+    font-size: 2rem;
+    margin: 0;
+}
+
+input {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    padding: 2px 5px;
+}
